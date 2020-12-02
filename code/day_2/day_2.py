@@ -34,7 +34,8 @@ if __name__ == "__main__":
             valid_passwords_part_2 += 1
 
     print(
-        f"(Part 1) There are {valid_passwords_part_1} valid passwords out of {len(input_list)}\n"
+        "\n"
+        + f"(Part 1) There are {valid_passwords_part_1} valid passwords out of {len(input_list)}\n"
     )
     print(
         f"(Part 2) There are {valid_passwords_part_2} valid passwords out of {len(input_list)}\n"
