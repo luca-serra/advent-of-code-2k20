@@ -8,7 +8,7 @@ This repo contains my personal solutions for the [advent of code 2020](https://a
 
 To execute the code of a given day *n*, please reproduce the following steps:
 
-1. Go to the [`data`]() folder to get the necessary data and follow the instructions.
+1. Go to the [`data`](https://github.com/luca-serra/advent-of-code-2k20/tree/main/data) folder to get the necessary data and follow the instructions.
 
 2. Execute the command: `cd code/day_n && python day_n.py`.
 
