@@ -1,10 +1,16 @@
+"""
+Day 1: Report Repair
+
+Goal: Find the numbers in a list which sum to 2020.
+"""
+
 INPUT_FILE = "../../data/day_1.txt"
 
 if __name__ == "__main__":
 
     input_list = [int(integer) for integer in open(INPUT_FILE).readlines()]
 
-    # PART 1
+    # Part 1
 
     print("#======= Part 1 =======#")
 
@@ -15,7 +21,7 @@ if __name__ == "__main__":
                 print(f"Their product is: {input_list[i] * input_list[j]}\n")
                 break
 
-    # PART 2
+    # Part 2
 
     print("#======= Part 2 =======#")
 

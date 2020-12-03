@@ -1,3 +1,9 @@
+"""
+Day 2: Password Philosophy
+
+Goal: Detect password which match to a certain rule.
+"""
+
 INPUT_FILE = "../../data/day_2.txt"
 
 if __name__ == "__main__":
