@@ -1,6 +1,6 @@
 # Advent of Code 2020
 
-This repository contains my personal solutions for the [Advent of Code 2020](https://adventofcode.com/2020). 
+This repository contains my personal solutions for the [Advent of Code 2020](https://adventofcode.com/2020), written in Python. 
 
 # Requirements
 
