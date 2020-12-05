@@ -11,7 +11,7 @@ if __name__ == "__main__":
     valid_passwords_part_1 = 0
     valid_passwords_part_2 = 0
 
-    input_list = [str(rule_and_password) for rule_and_password in open(INPUT_FILE).readlines()]
+    input_list = [str(string) for string in open(INPUT_FILE).readlines()]
     input_list[-1] += "\n"
     input_list = [string[:-1] for string in input_list]  # Deleting the '\n' character
 
