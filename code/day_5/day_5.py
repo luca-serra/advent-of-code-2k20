@@ -8,11 +8,11 @@ INPUT_FILE = "../../data/day_5.txt"
 
 if __name__ == "__main__":
 
-    seat_IDs = []
-
     input_list = [str(string) for string in open(INPUT_FILE).readlines()]
     input_list[-1] += "\n"
     input_list = [string[:-1] for string in input_list]  # Deleting the '\n' character
+
+    seat_IDs = []
 
     for seat_description in input_list:
         row_description = seat_description[:7]
