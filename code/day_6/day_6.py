@@ -10,8 +10,8 @@ if __name__ == "__main__":
 
     input_list = [str(string) for string in open(INPUT_FILE).readlines()]
     input_list[-1] += "\n"
+    input_list.append("\n")  # Adding \n character at the end of the list to treat the last element of the list
     input_list = [string[:-1] for string in input_list]  # Deleting the '\n' character
-    input_list.append("")  # Adding empty string at the end of the list to treat the last element
 
     count_questions_part_1 = 0
     count_questions_part_2 = 0
