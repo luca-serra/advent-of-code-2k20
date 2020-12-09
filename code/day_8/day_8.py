@@ -12,7 +12,6 @@ if __name__ == "__main__":
     input_list[-1] += "\n"
     input_list = [string[:-1] for string in input_list]  # Deleting the '\n' character
 
-    # print(input_list)
     instruction_indices = []
     end_of_program = False
     acc = 0
@@ -38,7 +37,7 @@ if __name__ == "__main__":
             idx += number
         else:  # starts with 'nop'
             idx += 1
-    # print(instruction_indices)
+
     indices_nop = [
         i for i, x in enumerate(input_list) if x.startswith("nop")
     ]  # list of indices tried to be modified to get the program to work
@@ -46,13 +45,11 @@ if __name__ == "__main__":
         i for i, x in enumerate(input_list) if x.startswith("jmp")
     ]  # list of indices tried to be modified to get the program to work
     indices_to_try = indices_nop + indices_jmp
-    indices_tried = []
     proper_ending = False
     instruction_indices = []
     end_of_program = False
     acc = 0
     idx = 0
-    # print(indices_to_try)
 
     # Part 2
     for ind in indices_to_try:
