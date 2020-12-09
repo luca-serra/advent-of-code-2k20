@@ -4,6 +4,8 @@ This repository contains my personal solutions for the [Advent of Code 2020](htt
 
 # Requirements
 
+No specific packages are required to run the code.
+
 # Usage
 
 To execute the code of a given day number *n*, please reproduce the following steps:
