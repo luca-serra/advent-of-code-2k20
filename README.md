@@ -2,9 +2,11 @@
 
 This repository contains my personal solutions for the [Advent of Code 2020](https://adventofcode.com/2020), written in Python. 
 
-# Requirements
+## Requirements
 
-# Usage
+No specific packages are required to run the code.
+
+## Usage
 
 To execute the code of a given day number *n*, please reproduce the following steps:
 
